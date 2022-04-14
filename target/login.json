@@ -1,0 +1,103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22402100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeMethod()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validating login by entering valid username and password",
+        "description": "",
+        "id": "validating-the-login-page-of-adactin;validating-login-by-entering-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 616067300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11440481500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Adactin Login Page",
+            "match": {
+              "location": "StepDefinition.user_is_on_Adactin_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 413392100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the userName \u0027Sargunam\u0027 and password \u0027OE9LXG\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sargunam\u0027",
+                  "offset": 24
+                },
+                {
+                  "val": "\u0027OE9LXG\u0027",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_userName_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 914321200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15409500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the user enters into Search Hotel page.",
+            "match": {
+              "location": "StepDefinition.validate_the_user_enters_into_Search_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating the login page of Adactin",
+    "description": "",
+    "id": "validating-the-login-page-of-adactin",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": []
+  }
+]
